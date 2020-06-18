@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body{ 
+  margin: 0;
+  font-family: Arial, Helvetica;
+}
+h1{
+color:red;
+font-weight:bold;
+font-size:35px;
+
+}
+
+.para{
+  background-color: orange;
+}
+#food{
+  color: blue;
+  font-weight: bold;
+}
+#p1{
+  padding: 0px 10px 10px 10px;
+  color: black;
+}
+#heading{
+  padding-top: 10px;
+  text-align: center;size: 7px;
+}
+#nav{
+  background-color: pink;
+}
+#clr{
+  color: pink;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-toggle{
+    border-color: white;
+  }
+#clr{
+  color: red;
+
+ }
+}
